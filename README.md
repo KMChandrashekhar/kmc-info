@@ -1,5 +1,6 @@
 # Spring Boot Project Folder Structure
 
+```
 📁 your-project/
 ├── 📄 pom.xml
 ├── 🐳 Dockerfile
@@ -24,4 +25,4 @@
 │       └── 📁 test/
 │
 └── 📁 .github/workflows/ci-cd.yml
-
+```
