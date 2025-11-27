@@ -1,35 +1,27 @@
 # Spring Boot Project Folder Structure
 
-your-project/
+📁 your-project/
+├── 📄 pom.xml
+├── 🐳 Dockerfile
+├── 📦 mvnw
+├── 📦 mvnw.cmd
 │
-├── pom.xml
-├── Dockerfile
-├── mvnw
-├── mvnw.cmd
-│
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/
-│       │       └── kmcinfo/
-│       │           └── web/
-│       │               └── HomeController.java   <-- (CREATE THIS FILE HERE)
+├── 📁 src/
+│   └── 📁 main/
+│       ├── 📁 java/
+│       │   └── 📁 com/kmcinfo/web/
+│       │       └── 🧩 HomeController.java
 │       │
-│       ├── resources/
-│       │   ├── application.properties            <-- (EDIT / ADD HERE)
-│       │   │
-│       │   ├── templates/                        <-- (CREATE THIS FOLDER)
-│       │   │   ├── index.html                    <-- (CREATE THIS)
-│       │   │   ├── about.html                    <-- (CREATE THIS)
-│       │   │   ├── services.html                 <-- (CREATE THIS)
-│       │   │   └── contact.html                  <-- (CREATE THIS)
-│       │   │
-│       │   └── static/                           <-- (EXISTS BY DEFAULT)
-│       │       └── css/
-│       │           └── style.css                 <-- (CREATE THIS)
+│       ├── 📁 resources/
+│       │   ├── ⚙️ application.properties
+│       │   ├── 📁 templates/
+│       │   │   ├── 🧩 index.html
+│       │   │   ├── 🧩 about.html
+│       │   │   ├── 🧩 services.html
+│       │   │   └── 🧩 contact.html
+│       │   └── 📁 static/css/style.css
 │       │
-│       └── test/
+│       └── 📁 test/
 │
-└── .github/
-    └── workflows/
-        └── ci-cd.yml                             <-- (CREATE THIS FOR CI/CD)
+└── 📁 .github/workflows/ci-cd.yml
+
