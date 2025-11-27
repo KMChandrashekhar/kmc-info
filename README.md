@@ -1,7 +1,7 @@
 # Spring Boot Project Folder Structure
 
 ```
-📁 your-project/
+📁 kmc-info/
 ├── 📄 pom.xml
 ├── 🐳 Dockerfile
 ├── 📦 mvnw
